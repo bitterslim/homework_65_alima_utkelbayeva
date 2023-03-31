@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_65</title>
+</head>
+<body>
+<script type="text/javascript">
+    var list = ['молоко', 'пиво', 'пиво', 'молоко', 'молоко'];
+for (i of list) {
+    switch(i){
+        case 'молоко':
+            console.log('плохо');
+        case 'пиво':
+            console.log('хорошо');}
+
+}
+</script>
+<script type="text/javascript">
+    const num1= [1, 5, 12, 4, 3];
+    const num2 = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    const num3 = [3, 10, 17]
+    const average= (numbers) => {
+        let sum = 0;
+        for (let i = 0; i < numbers.length; i += 1) {
+            sum += numbers[i];
+        }
+        return sum / numbers.length;
+    };
+
+    console.log(average(num1));
+    console.log(average(num2));
+    console.log(average(num3));
+</script>
+<script type="text/javascript">
+       let ridle= prompt( "У квадратного стола отпилили один угол. Сколько теперь углов у него стало?", 0);
+    switch(ridle){
+        case "5":
+            alert("Ответ верный");
+            break;
+        case 'пять':
+            alert("Ответ верный");
+            break;
+        default:
+            alert("Ответ неверный");
+    };
+</script>
+<script type="text/javascript">
+    const duck = {
+	name: 'Donald',
+	age: 1,
+	color: 'white',
+	text: function(){
+		console.log(this.name , this.age, this.color)},
+	say: function(){
+		console.log('кря, кря')}
+    }
+    duck.text()
+    duck.say()
+</script>
